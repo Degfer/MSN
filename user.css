@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #edeef0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+::selection {
+    background: #68e057;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #68e057;
+    color: #fff;
+}
+
+/* Nav Styles */
+
+nav {
+    width: 100%;
+    height: 40px;
+    background: #4a76a8;
+}
+
+nav a {
+    margin-top: 0.1%;
+    padding: 0.3% 0.3% 0.3%;
+    font-size: 22px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#reg2 {
+    color: #8a8a8a;
+    font-size: 15px;
+}
+
+#reg {
+    color: #8a8a8a;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#msn {
+    margin-left: 7%;
+    float: left;
+    width: 50px;
+    height: 22px;
+}
+
+nav #pSignIn {
+    margin-top: 1%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+#pLogin, #pPassword {
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+input {
+    width: 140px;
+    height: 20px;
+}
+
+#profile {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 1%;
+    margin-top: 0.2%;
+    font-size: 15px;
+    background: grey;
+}
+
+#login {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#password {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+nav .signIn {
+    width: 200px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 1%;
+    float: left;
+}
+
+nav .block {
+    float: left;
+    background: #fff;
+    width: 1000px;
+    height: 800px;
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+nav .block button {
+    margin-left: 0.3%;
+    height: 30px;
+}
+
+#pUpdate {
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+#imgUpdate {
+    margin-top: 1%;
+}
+
+#pWho {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+#pThis {
+    margin-top: 1%;
+}
+
+nav button {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 143px;
+    height: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #4a76a8;
+    border: none;
+    border-radius: 3px;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
