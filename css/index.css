@@ -34,7 +34,8 @@ li {
 nav {
     width: 100%;
     height: 40px;
-    background: #4a76a8;
+    /* background: #4a76a8; */
+    background: #f44336;
 }
 
 nav a {
@@ -64,6 +65,12 @@ nav a {
 }
 
 nav #pSignIn {
+    margin-top: 1%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+nav #pSignIn2 {
     margin-top: 1%;
     font-size: 25px;
     margin-left: 5%;
@@ -99,11 +106,25 @@ input {
 }
 
 nav .signIn {
-    width: 200px;
-    height: 300px;
-    margin-left: 5%;
+    width: 161px;
+    height: 250px;
+    margin-left: 2%;
     margin-top: 1%;
     float: left;
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+nav .signIn2 {
+    background: #fff;
+    border-radius: 10px; 
+}
+
+nav .signIn3 {
+    width: 161px;
+    height: 110px;
+    background: #fff;
+    border-radius: 10px; 
 }
 
 nav .block {
@@ -113,6 +134,7 @@ nav .block {
     height: 800px;
     margin-top: 1.5%;
     text-align: center;
+    border-radius: 10px;
 }
 
 nav .block button {
@@ -147,7 +169,8 @@ nav button {
     color: #fff;
     font-weight: bold;
     text-align: center;
-    background: #4a76a8;
+    /* background: #4a76a8; */
+    background: #f44336;
     border: none;
     border-radius: 3px;
 }
@@ -271,7 +294,8 @@ nav button:hover {
     color: #fff;
     font-weight: bold;
     text-align: center;
-    background: #4a76a8;
+    /* background: #4a76a8; */
+    background: #f44336;
     border: none;
     border-radius: 3px;
 }
