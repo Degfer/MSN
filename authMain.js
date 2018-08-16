@@ -1,3 +1,5 @@
+
+//Initialize app
 const config = {
     apiKey: "AIzaSyCrQH1uj-GPk4mD2BKmuG_INXuiZMX9vR8",
     authDomain: "minisn-9e681.firebaseapp.com",
@@ -10,22 +12,24 @@ const config = {
 firebase.initializeApp(config);
 
 
-function createAccount() {
+// Authenticate
+function signIn() {
     const email = document.getElementById("login").value;
     const password = document.getElementById("password").value;
 
-    firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
-       const errorCode = error.code;
-       const errorMessage = error.message;
+    firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+        const errorCode = error.code;
+        const errorMessage = error.message;
 
-       window.alert('Error : ' + errorMessage);
+        window.alert('Error : ' + errorMessage);
     });
 
-    function Href() {
-        location.href = 'users.html';
+    if (user.auth()) {
+        function Href() {
+            location.href = 'users.html';
+        }
+        setTimeout(Href, 3000);
     }
 
     setTimeout(Href, 3000);
 }
-
-

@@ -9,16 +9,15 @@ const config = {
 
 firebase.initializeApp(config);
 
-
-function createAccount() {
+function signIn() {
     const email = document.getElementById("login").value;
     const password = document.getElementById("password").value;
 
-    firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
-       const errorCode = error.code;
-       const errorMessage = error.message;
+    firebase.auth().signWithEmailAndPassword(email, password).catch(function(error) {
+        const errorCode = error.code;
+        const errorMessage = error.message;
 
-       window.alert('Error : ' + errorMessage);
+        window.alert('Error : ' + errorMessage);
     });
 
     function Href() {
@@ -27,5 +26,3 @@ function createAccount() {
 
     setTimeout(Href, 3000);
 }
-
-
