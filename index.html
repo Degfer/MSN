@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MSN</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/png">
+</head>
+<body>
+    <nav>
+        <a href="#" id="msn">MSN</a>
+        <a href="reg.html" id="signUp">Регистрация</a>
+        <br><br>
+        <div class="signIn">
+          <div class="signIn2">
+            <br>
+            <p id="pSignIn">Вход</p>
+            <p id="pLogin">Логин</p>
+            <input type="text" id="login">
+            <br>
+            <p id="pPassword">Пароль</p>
+            <input type="password" id="password">
+            <br>
+            <button onclick="location.href = 'auth.html'">Войти</button>
+            <br>
+            <button onclick="location.href = 'reg.html'" id="aReg">Регистрация</button>
+        </div>
+          <br><br>
+        <div class="signIn3">
+           <br>
+           <h1 id="pSignIn2">Hello</h1>
+        </div>
+
+        </div>
+
+        <div class="block">
+            <p id="pWho">MSN - Что это?</p>
+            <p id="pThis">MSN(Mini Social Network) - Это Мини Социальная Сеть, </p>
+            <p id="pThis3">она создана для того, чтобы узнавать что-то новое,</p>
+            <p id="pThis5">и рассказывать что-то новое.</p>
+
+            <button onclick="location.href = 'reg.html'">✓ Начать</button>
+
+            <p id="pUpdate">Здесь будут появляться обновления сайта</p>
+            <br>
+            <p>MSN 1.0</p>
+            <p>(08.08.18)</p>
+        </div>
+    </nav>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+
+    <script src="js/authMain.js"></script>
+</body>
+</html>
